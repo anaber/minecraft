@@ -8,7 +8,7 @@ var UnminedMapProperties = {
     minRegionZ: -10,
     maxRegionX: 6,
     maxRegionZ: 5,
-    worldName: "randomdriver13 - Copy",
+    worldName: "randomworld",
     background: "#dedede",
     markers: new Array(),
     enableGrid: true,
