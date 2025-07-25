@@ -4,7 +4,7 @@ var UnminedCustomMarkers = {
         { x: 118, z: 110, title: "Base One", description: "Y: 67", image: "icons/base.png" },
         { x: -297, z: 347, title: "Acacia Village 1", description: "Y: 62", image: "icons/marker-icon.png" },
         { x: 663, z: -2177, title: "Unknown Base", description: "Y: 70", image: "icons/marker-icon.png" },
-        { x: 806, z: -1042, title: "Strong Hold Village", description: "Y: 62", image: "icons/marker-icon.png" },
+        { x: 806, z: -1042, title: "Strong Hold Village", description: "Y: 62", image: "icons/village.png" },
         { x: 2847, z: -4261, title: "Taiga Mineshaft Base", description: "Y: 65", image: "icons/marker-icon.png" },
         { x: 3019, z: -4060, title: "Taiga Big Cave", description: "Y: 68", image: "icons/marker-icon.png" },
         { x: 1492, z: -1996, title: "Ice Mountain", description: "Y: 106", image: "icons/marker-icon.png" },
@@ -19,6 +19,9 @@ var UnminedCustomMarkers = {
         { x: 2429, z: -4255, title: "Taiga Village 1", description: "Y: 118", image: "icons/village.png" },
         { x: 2402, z: -4628, title: "Taiga Village 2", description: "Y: 97", image: "icons/village.png" },
         { x: -3006, z: 2873, title: "Unknown Village", description: "Y: 70", image: "icons/village.png" },
-        { x: 2934, z: -2951, title: "Unknown Village", description: "Y: -51", image: "icons/marker-icon.png" }
+        { x: 2934, z: -2951, title: "Unknown Village", description: "Y: -51", image: "icons/marker-icon.png" },
+        { x: 1311, z: -5244, title: "Ice Village 1", description: "Y: 66", image: "icons/village.png" },
+        { x: 1995, z: -5250, title: "Ice Village 2", description: "Y: 78", image: "icons/village.png" },
+        { x: 1892, z: -5782, title: "Unknown Village", description: "Y: 66", image: "icons/village.png" }
     ]
 };
