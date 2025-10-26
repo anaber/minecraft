@@ -326,45 +326,6 @@ class Unmined {
         this.updatePlayerMarkersLayer();
         this.olMap.addControl(this.createContextMenu());
 
-        // Create popup overlay
-var popup = new ol.Overlay({
-    element: document.getElementById('popup'),
-    autoPan: {
-        animation: {
-            duration: 250,
-        },
-    },
-});
-map.addOverlay(popup);
-
-// Closer button functionality
-var closer = document.getElementById('popup-closer');
-closer.onclick = function () {
-    popup.setPosition(undefined);
-    closer.blur();
-    return false;
-};
-
-// Click listener on map
-map.on('singleclick', function (evt) {
-    var feature = map.forEachFeatureAtPixel(evt.pixel, function (feature) {
-        return feature;
-    });
-
-    if (feature) {
-        // Get title/description from your marker data (adapt based on how you store it)
-        var title = feature.get('title') || 'No Title'; // Assuming you set properties on features
-        var description = feature.get('description') || '';
-
-        var content = document.getElementById('popup-content');
-        content.innerHTML = '<strong>' + title + '</strong><br>' + description;
-
-        popup.setPosition(evt.coordinate);
-    } else {
-        popup.setPosition(undefined);
-    }
-});
-
         this.redDotMarker = new RedDotMarker(this.olMap, this.dataProjection, this.viewProjection);
 
         this.centerOnRedDotMarker();
@@ -398,8 +359,6 @@ map.on('singleclick', function (evt) {
             var feature = new ol.Feature({
                 geometry: new ol.geom.Point(ol.proj.transform([longitude, latitude], this.dataProjection, this.viewProjection))
             });
-            feature.set('title', item.title || 'Marker'); // From your custom.markers.js
-            feature.set('description', (item.description || '') + '<br>X: ' + item.x + ', Z: ' + item.z);
 
             var style = new ol.style.Style();
             if (item.image)

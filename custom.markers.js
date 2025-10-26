@@ -23,6 +23,7 @@ var UnminedCustomMarkers = {
         { x: 1311, z: -5244, title: "Ice Village 1", description: "Y: 66", image: "icons/village.png" },
         { x: 1995, z: -5250, title: "Ice Village 2", description: "Y: 78", image: "icons/village.png" },
         { x: 1892, z: -5782, title: "Unknown Village", description: "Y: 66", image: "icons/village.png" },
-        { x: -1255, z: 1816, title: "Unknown Water Temple", description: "Y: 63", image: "icons/marker-icon.png" }
+        { x: -1255, z: 1816, title: "Unknown Water Temple", description: "Y: 63", image: "icons/marker-icon.png" },
+        { x: -3139, z: 2779, title: "Insane Mine Shaft", description: "Y: -9", image: "icons/marker-icon.png" }
     ]
 };
