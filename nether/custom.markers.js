@@ -38,41 +38,129 @@ Use the imageScale property if the pin image is too large.
 
 UnminedCustomMarkers = {
 
-    isEnabled: false,
+    isEnabled: true,
 
     markers: [
 
-        // Example 1: Simple marker
+        // Ancient City Portal
         {
-            x: -200,
-            z: -200,
-            image: "custom.pin.png",
+            x: 156,
+            z: -368,
+            description: "To Ancient City Base",
+            image: "marker-icon.png",
             imageAnchor: [0.5, 1],
-            imageScale: 0.5,
+            imageScale: 0.8,
         },
 
-        // Example 2: Marker with text
+        // Midway Portal
         {
-            x: 0,
-            z: 0,
-            image: "custom.pin.png",
+            x: 7,
+            z: -235,
+            image: "marker-icon.png",
             imageAnchor: [0.5, 1],
-            imageScale: 0.5,
-            text: "Marker with text",
+            imageScale: 0.8,
+            title: "Midway Portal",
             textColor: "red", 
             offsetX: 0,
             offsetY: 20,
             font: "bold 20px Calibri,sans serif",
         },
 
-        // Example 3: Text only
+        // End City Portal
         {
-            x: 200,
-            z: 200,
-            text: "Text only", 
-            textColor: "yellow", 
+            x: 100,
+            z: -127,
+            image: "marker-icon.png",
+            imageAnchor: [0.5, 1],
+            imageScale: 0.8,
+            title: "To End Portal City", 
+            textColor: "red", 
             offsetX: 0,
-            offsetY: 0, 
+            offsetY: 20, 
+            font: "bold 50px Calibri,sans serif",
+        },
+
+        // first base
+        {
+            x: 12,
+            z: 22,
+            image: "marker-icon.png",
+            imageAnchor: [0.5, 1],
+            imageScale: 0.8,
+            title: "First Base", 
+            textColor: "red", 
+            offsetX: 0,
+            offsetY: 20, 
+            font: "bold 50px Calibri,sans serif",
+        },
+
+        // faraway
+        {
+            x: 405,
+            z: 438,
+            image: "marker-icon.png",
+            imageAnchor: [0.5, 1],
+            imageScale: 0.8,
+            title: "Faraway Portal", 
+            textColor: "red", 
+            offsetX: 0,
+            offsetY: 20, 
+            font: "bold 50px Calibri,sans serif",
+        },
+
+        // pale oaks
+        {
+            x: -1519,
+            z: 350,
+            image: "marker-icon.png",
+            imageAnchor: [0.5, 1],
+            imageScale: 0.8,
+            title: "Pale Oaks", 
+            textColor: "red", 
+            offsetX: 0,
+            offsetY: 20, 
+            font: "bold 50px Calibri,sans serif",
+        },
+
+        // pale oaks
+        {
+            x: 136,
+            z: 402,
+            image: "marker-icon.png",
+            imageAnchor: [0.5, 1],
+            imageScale: 0.8,
+            title: "Path Junction", 
+            textColor: "red", 
+            offsetX: 0,
+            offsetY: 20, 
+            font: "bold 50px Calibri,sans serif",
+        },
+
+        // pale oaks
+        {
+            x: 136,
+            z: 126,
+            image: "marker-icon.png",
+            imageAnchor: [0.5, 1],
+            imageScale: 0.8,
+            title: "Path Junction", 
+            textColor: "red", 
+            offsetX: 0,
+            offsetY: 20, 
+            font: "bold 50px Calibri,sans serif",
+        },
+
+        // pale oaks
+        {
+            x: 15,
+            z: 126,
+            image: "marker-icon.png",
+            imageAnchor: [0.5, 1],
+            imageScale: 0.8,
+            title: "Path Junction", 
+            textColor: "red", 
+            offsetX: 0,
+            offsetY: 20, 
             font: "bold 50px Calibri,sans serif",
         },
 
