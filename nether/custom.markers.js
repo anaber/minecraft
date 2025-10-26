@@ -46,10 +46,13 @@ UnminedCustomMarkers = {
         {
             x: 156,
             z: -368,
-            description: "To Ancient City Base",
+            text: "To Ancient City",
+            textColor: "white",
             image: "marker-icon.png",
             imageAnchor: [0.5, 1],
             imageScale: 0.8,
+            font: "bold 14px Arial,sans serif",
+            offsetY: -40,
         },
 
         // Midway Portal
@@ -59,11 +62,11 @@ UnminedCustomMarkers = {
             image: "marker-icon.png",
             imageAnchor: [0.5, 1],
             imageScale: 0.8,
-            title: "Midway Portal",
-            textColor: "red", 
+            text: "Midway Portal",
+            textColor: "white", 
             offsetX: 0,
-            offsetY: 20,
-            font: "bold 20px Calibri,sans serif",
+            offsetY: -40,
+            font: "bold 14px Arial,sans serif",
         },
 
         // End City Portal
@@ -73,11 +76,11 @@ UnminedCustomMarkers = {
             image: "marker-icon.png",
             imageAnchor: [0.5, 1],
             imageScale: 0.8,
-            title: "To End Portal City", 
-            textColor: "red", 
+            text: "To End Portal", 
+            textColor: "white", 
             offsetX: 0,
-            offsetY: 20, 
-            font: "bold 50px Calibri,sans serif",
+            offsetY: -40, 
+            font: "bold 14px Arial,sans serif",
         },
 
         // first base
@@ -87,11 +90,11 @@ UnminedCustomMarkers = {
             image: "marker-icon.png",
             imageAnchor: [0.5, 1],
             imageScale: 0.8,
-            title: "First Base", 
-            textColor: "red", 
+            text: "First Base", 
+            textColor: "white", 
             offsetX: 0,
-            offsetY: 20, 
-            font: "bold 50px Calibri,sans serif",
+            offsetY: -40, 
+            font: "bold 14px Arial,sans serif",
         },
 
         // faraway
@@ -101,11 +104,11 @@ UnminedCustomMarkers = {
             image: "marker-icon.png",
             imageAnchor: [0.5, 1],
             imageScale: 0.8,
-            title: "Faraway Portal", 
-            textColor: "red", 
+            text: "Faraway Portal", 
+            textColor: "white", 
             offsetX: 0,
-            offsetY: 20, 
-            font: "bold 50px Calibri,sans serif",
+            offsetY: -40, 
+            font: "bold 14px Arial,sans serif",
         },
 
         // pale oaks
@@ -115,53 +118,53 @@ UnminedCustomMarkers = {
             image: "marker-icon.png",
             imageAnchor: [0.5, 1],
             imageScale: 0.8,
-            title: "Pale Oaks", 
-            textColor: "red", 
+            text: "Pale Oaks", 
+            textColor: "white", 
             offsetX: 0,
-            offsetY: 20, 
-            font: "bold 50px Calibri,sans serif",
+            offsetY: -40, 
+            font: "bold 14px Arial,sans serif",
         },
 
-        // pale oaks
+        // path junction
         {
             x: 136,
             z: 402,
             image: "marker-icon.png",
             imageAnchor: [0.5, 1],
             imageScale: 0.8,
-            title: "Path Junction", 
-            textColor: "red", 
+            text: "136, 402 - Junction", 
+            textColor: "white", 
             offsetX: 0,
-            offsetY: 20, 
-            font: "bold 50px Calibri,sans serif",
+            offsetY: -40, 
+            font: "10px Arial,sans serif",
         },
 
-        // pale oaks
+        // path junction
         {
             x: 136,
             z: 126,
             image: "marker-icon.png",
             imageAnchor: [0.5, 1],
             imageScale: 0.8,
-            title: "Path Junction", 
-            textColor: "red", 
+            text: "136, 126 - Junction", 
+            textColor: "white", 
             offsetX: 0,
-            offsetY: 20, 
-            font: "bold 50px Calibri,sans serif",
+            offsetY: -40, 
+            font: "10px Arial,sans serif",
         },
 
-        // pale oaks
+        // path junction
         {
             x: 15,
             z: 126,
             image: "marker-icon.png",
             imageAnchor: [0.5, 1],
             imageScale: 0.8,
-            title: "Path Junction", 
-            textColor: "red", 
+            text: "15, 126 - Junction", 
+            textColor: "white", 
             offsetX: 0,
-            offsetY: 20, 
-            font: "bold 50px Calibri,sans serif",
+            offsetY: -40, 
+            font: "10px Arial,sans serif",
         },
 
         // add your markers here
